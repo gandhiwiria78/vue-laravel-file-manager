@@ -5,7 +5,7 @@
                 <tr>
                     <th class="w-65" v-on:click="sortBy('name')">
                         {{ lang.manager.table.name }}
-                        <template v-if="sortSettings.field === 'name'">
+                        <template v-if="sortSettings.field === 'nama'">
                             <i class="fas fa-sort-amount-down"
                                v-show="sortSettings.direction === 'down'"></i>
                             <i class="fas fa-sort-amount-up"
