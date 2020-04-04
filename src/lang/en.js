@@ -4,7 +4,7 @@
  */
 const en = {
   btn: {
-    about: 'About',
+    about: 'Tentang',
     back: 'Back',
     cancel: 'Cancel',
     clear: 'Clear',
@@ -59,11 +59,11 @@ const en = {
   },
   manager: {
     table: {
-      date: 'Date',
+      date: 'Tanggal',
       folder: 'Folder',
-      name: 'Name',
+      name: 'Nama',
       size: 'Size',
-      type: 'Type',
+      type: 'Tipe',
     },
   },
   modal: {
