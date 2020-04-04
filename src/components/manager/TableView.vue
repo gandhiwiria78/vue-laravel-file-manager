@@ -30,9 +30,9 @@
                                v-show="sortSettings.direction === 'up'"></i>
                         </template>
                     </th>
-                    <th class="w-auto" v-on:click="sortBy('date')">
+                    <th class="w-auto" v-on:click="sortBy('tanggal')">
                         {{ lang.manager.table.date }}
-                        <template v-if="sortSettings.field === 'date'">
+                        <template v-if="sortSettings.field === 'tanggal'">
                             <i class="fas fa-sort-amount-down"
                                v-show="sortSettings.direction === 'down'"></i>
                             <i class="fas fa-sort-amount-up"
